@@ -28,16 +28,19 @@ node-express-mongo-api
 ## Installation
 
 1. Clone the repository:
+
    ```
    git clone <repository-url>
    ```
 
 2. Navigate to the project directory:
+
    ```
    cd node-express-mongo-api
    ```
 
 3. Install the dependencies:
+
    ```
    npm install
    ```
@@ -51,16 +54,18 @@ node-express-mongo-api
 ## Usage
 
 1. Start the server:
+
    ```
    npm start
    ```
 
-2. The API will be running on `http://localhost:3000`.
+2. The API will be running on `http://localhost:5000/`.
 
 ## Endpoints
 
 - **POST /api/auth/register**: Create a new user.
 - **POST /api/auth/login**: Authenticate a user and return a token.
+- **GET /**: Endpoint to access front-end application.
 
 ## License
 
